@@ -173,9 +173,9 @@ class Bot(discord.Client):
         self.embed=discord.Embed(title="**__TRIVIA SAVAGE | PRO__**", description="**Web Searching** :spy:")
         self.embed.set_author(name ='',url=' ',icon_url='https://images-ext-2.discordapp.net/external/aMZ8_Dhu3Cib5U1l--xzP6QVgEV6bzjPDLMC-gNawWY/https/cdn.discordapp.com/attachments/577373201164795904/585046581506605076/ezgif-2-2f5a82b8174f.gif?width=225&height=225')
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/595713706411819033/604679180201754674/image0.png")
-        self.embed.add_field(name="Option I", value="0", inline=False)
-        self.embed.add_field(name="Option II", value="0", inline=False)
-        self.embed.add_field(name="Option III", value="0", inline=False)
+        self.embed.add_field(name="ANSWER 1", value="0", inline=False)
+        self.embed.add_field(name="ANSWER 2", value="0", inline=False)
+        self.embed.add_field(name="ANSWER 3", value="0", inline=False)
         self.embed.set_footer(text=f"CAPTAIN COOL#0044",\
             icon_url="https://cdn.discordapp.com/attachments/595713706411819033/604679180201754674/image0.png")
         self.embed.add_field(name="Suggested Answer!:", value="0", inline=True)
@@ -209,19 +209,19 @@ class Bot(discord.Client):
 
         if highest > 0:
             if answer == 1:
-                one_check = "<:white_check_mark:601397380507500549>"
+                one_check = ":one:"
                 best_answer = ':one:'
             else:
                 one_check = "<:x:600303220417626120>"
 
             if answer == 2:
-                two_check = "<:white_check_mark:601397380507500549>"
+                two_check = ":two:"
                 best_answer = ':two:'
             else:
                 two_check = "<:x:600303220417626120>"
 
             if answer == 3:
-                three_check = "<:white_check_mark:601397380507500549>"
+                three_check = ":three:"
                 best_answer = ':three:'
             else:
                 three_check = "<:x:600303220417626120>"
@@ -254,9 +254,12 @@ class Bot(discord.Client):
 
         await self.clear_results()
         await self.update_embeds()
-        await self.change_presence(activity=discord.Game(name='with '+str(len(set(self.get_all_members())))+' users'))
-        await self.change_presence(activity=discord.Game(name='Trivia with Captain Cool||*help'))
-
+        await self.change_presence(activity=discord.Game(name='with TRIVIA SAVAGE PRO'))
+	await asyncio.sleep(5)
+	
+        await self.change_presence(activity=discord.Game(name='Trivia by Captain Cool||*help'))
+        await asyncio.sleep(5)
+	
     async def on_message(self, message):
 
         # if message is private
