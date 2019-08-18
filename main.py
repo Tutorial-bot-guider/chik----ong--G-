@@ -170,15 +170,15 @@ class Bot(discord.Client):
         self.answer_scores = answer_scores
 
         # embed creation
-        self.embed=discord.Embed(title="**__TRIVIA SAVAGE | PRO__**", description="**Web Searching** :spy:")
+        self.embed=discord.Embed(title="**__TRIVIA SAVAGE | PRO__**", description="**Web Searching** <a:name🅰gearz:591239788347129866>")
         self.embed.set_author(name ='',url=' ',icon_url='https://images-ext-2.discordapp.net/external/aMZ8_Dhu3Cib5U1l--xzP6QVgEV6bzjPDLMC-gNawWY/https/cdn.discordapp.com/attachments/577373201164795904/585046581506605076/ezgif-2-2f5a82b8174f.gif?width=225&height=225')
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/595713706411819033/604679180201754674/image0.png")
-        self.embed.add_field(name="ANSWER 1", value="0", inline=False)
-        self.embed.add_field(name="ANSWER 2", value="0", inline=False)
-        self.embed.add_field(name="ANSWER 3", value="0", inline=False)
-        self.embed.set_footer(text=f"CAPTAIN COOL#0044",\
+        self.embed.add_field(name="**ANSWER 1**", value="0", inline=False)
+        self.embed.add_field(name="**ANSWER 2**", value="0", inline=False)
+        self.embed.add_field(name="**ANSWER 3**", value="0", inline=False)
+        self.embed.set_footer(text=f"©CAPTAIN COOL#0044",\
             icon_url="https://cdn.discordapp.com/attachments/595713706411819033/604679180201754674/image0.png")
-        self.embed.add_field(name="Suggested Answer!:", value="0", inline=True)
+        self.embed.add_field(name="**SUGGESTED ANSWER!:**", value="0", inline=True)
 
         #await self.bot.add_reaction(embed,':spy:')
 
@@ -236,10 +236,10 @@ class Bot(discord.Client):
             #if answer == 3:
                 #three_cross = ":x:"            
  
-        self.embed.set_field_at(0, name="Option I", value="**{0}**{1}".format(lst_scores[0], one_check))
-        self.embed.set_field_at(1, name="Option II", value="**{0}**{1}".format(lst_scores[1], two_check))
-        self.embed.set_field_at(2, name="Option III", value="**{0}**{1}".format(lst_scores[2], three_check))
-        self.embed.set_field_at(3, name="Suggested Answer!:", value=best_answer, inline=True)
+        self.embed.set_field_at(0, name="**ANSWER 1**", value="**{0}**{1}".format(lst_scores[0], one_check))
+        self.embed.set_field_at(1, name="**ANSWER 2**", value="**{0}**{1}".format(lst_scores[1], two_check))
+        self.embed.set_field_at(2, name="**ANSWER 3**", value="**{0}**{1}".format(lst_scores[2], three_check))
+        self.embed.set_field_at(3, name="SUGGESTED ANSWER!:", value=best_answer, inline=True)
 
 
         if self.embed_msg is not None:
