@@ -255,11 +255,8 @@ class Bot(discord.Client):
         await self.clear_results()
         await self.update_embeds()
         await self.change_presence(activity=discord.Game(name='with TRIVIA SAVAGE PRO'))
-	await asyncio.sleep(5)
-	
         await self.change_presence(activity=discord.Game(name='Trivia by Captain Cool||*help'))
-        await asyncio.sleep(5)
-	
+ 
     async def on_message(self, message):
 
         # if message is private
