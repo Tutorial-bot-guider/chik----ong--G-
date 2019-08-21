@@ -174,7 +174,7 @@ class Bot(discord.Client):
         self.answer_scores = answer_scores
 
         # embed creation
-        self.embed=discord.Embed(title="**__TRIVIA SAVAGE | PRO__**", description="**Web Searching** <a:name🅰gearz:591239788347129866>")
+        self.embed=discord.Embed(title="**__TRIVIA SAVAGE | PRO__**", description="**Web Searching** :spy:")
         self.embed.set_author(name ='',url=' ',icon_url='https://images-ext-2.discordapp.net/external/aMZ8_Dhu3Cib5U1l--xzP6QVgEV6bzjPDLMC-gNawWY/https/cdn.discordapp.com/attachments/577373201164795904/585046581506605076/ezgif-2-2f5a82b8174f.gif?width=225&height=225')
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/595713706411819033/604679180201754674/image0.png")
         self.embed.add_field(name="**ANSWER 1**", value="0", inline=False)
@@ -213,19 +213,19 @@ class Bot(discord.Client):
 
         if highest > 0:
             if answer == 1:
-                one_check = ":one:"
+                one_check = ":white_check_mark:"
                 best_answer = ':one:'
             else:
                 one_check = "<:x:600303220417626120>"
 
             if answer == 2:
-                two_check = ":two:"
+                two_check = ":white_check_mark:"
                 best_answer = ':two:'
             else:
                 two_check = "<:x:600303220417626120>"
 
             if answer == 3:
-                three_check = ":three:"
+                three_check = ":white_check_mark:"
                 best_answer = ':three:'
             else:
                 three_check = "<:x:600303220417626120>"
