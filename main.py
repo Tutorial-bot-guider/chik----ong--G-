@@ -16,7 +16,7 @@ BOT_OWNER_ROLE = 'fetch' # change to what you need
 
  
 oot_channel_id_list = [
-    "593990608914219008", #loco galaxy
+    "613735885460209694", #loco galaxy
 	"607613349491900436", #loco IQ
     "569420128794443776", #loco unt
     "569502072945377290", #indian loco
@@ -24,7 +24,7 @@ oot_channel_id_list = [
 	"612177236107460618",#sani loco
 	"591498350562377741",#planet loco
 	"605443517069656084", #tf confetti
-	"593990638916075520", #galaxy confett
+	"613744392968208403", #galaxy confett
 	"590583414541910018",# confetti IQ
 	"591294134564683809", #indian confetti
 	"588070986554015764",#unt confetti
@@ -32,7 +32,7 @@ oot_channel_id_list = [
 	"612177284471717894",#sani confetti
 	"591498756562878475",#planet confetti
 	"595639586726740049",#tf hq
-	"591068955523809328",#hq galaxy
+	"613746823231963156",#hq galaxy
 	"580198028950896640",#HQ tribe
         "459842150323060736",#hq dimensions
         "513818250652680213",#hq world
@@ -40,7 +40,7 @@ oot_channel_id_list = [
 	"568617830258442255"#hq revolution
 	"598669844983840779",#cashquiz dimension
 	"446448458090545172",#cashquiz tribe
-	"610713322509303809",#cashquiz galaxy
+	"613746922494099467",#cashquiz galaxy
 	"595639664300392472",#cashquiz tf
 	"596527077402869770",#theq tf
 	"501220538518077440",#theq dimensions
@@ -49,6 +49,7 @@ oot_channel_id_list = [
 	"569420278006808586",#theq unt
 	"580208596139245601",#theq revolution
 	"535675285211971584",#swagIQ world
+	"613747175779991563",#swagIQ galaxy
 	"595639769904447502",#swagIQ tf
 	"446448437119025154",#swagIQ tribe
 	"501220306128601098",#swagIQ dimension
@@ -64,6 +65,7 @@ oot_channel_id_list = [
 	"609003338675126272",#confetti vietnam pride
 	"611439844996153375",#confetti mexico pride
 	"611980037243273220",#confettimexico pride
+	"612521279270027276",#confetti mexico other
 	"611751492054941696",#confetti mexico
 ]
 
