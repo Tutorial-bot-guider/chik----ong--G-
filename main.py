@@ -58,6 +58,7 @@ oot_channel_id_list = [
 	"599991033547325459",#topiq pride
 	"611440497319477260",#q12 pride
 	"611980187743158274",#q12 pride
+	"613749366888333322",#q12 galaxy
 	"514915010955313153",#confeti vietnam world
 	"595640787933331466",#confetti vietnam tf
 	"501219307477532674",#confeti vietnam dimension
@@ -286,7 +287,7 @@ class Bot(discord.Client):
           await message.delete()
           if BOT_OWNER_ROLE in [role.name for role in message.author.roles]:
            embed = discord.Embed(title="Help Commands", description="**How Run Bot**", color=0x00ff00)
-           embed.add_field(name="Support Game", value="**Loco\nConfetti-India\nFlipkart\nJeetoh\nHQ Trivia\nCashquiz\nSwag IQ\nThe Q\nConfetti Vietnam\nConfetti mexico\nMocha vietnam\nTopIQ vietnam**", inline=False)
+           embed.add_field(name="Support Game", value="**:one: Loco\n:two: Confetti-India\nFlipkart\nJeetoh\nHQ Trivia\nCashquiz\nSwag IQ\nThe Q\nConfetti Vietnam\nConfetti mexico\nMocha vietnam\nTopIQ vietnam**", inline=False)
            embed.add_field(name="when Question come put command", value=" `*` **is command work for all support game except**\n**`*j` is command of jeetoh**\n**`*f` is command for filpkart**\n\n**use cmd! in particular channels**\n\n**FOR MORE INFO CONTACT TO CAPTAIN COOL#0044**", inline=False)
            await message.channel.send(embed=embed)
           
