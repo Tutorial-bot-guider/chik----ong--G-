@@ -59,6 +59,7 @@ oot_channel_id_list = [
 	"611440497319477260",#q12 pride
 	"611980187743158274",#q12 pride
 	"613749366888333322",#q12 galaxy
+	"613111574051291181",#q12 world
 	"514915010955313153",#confeti vietnam world
 	"595640787933331466",#confetti vietnam tf
 	"501219307477532674",#confeti vietnam dimension
