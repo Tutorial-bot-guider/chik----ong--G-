@@ -287,7 +287,7 @@ class Bot(discord.Client):
           await message.delete()
           if BOT_OWNER_ROLE in [role.name for role in message.author.roles]:
            embed = discord.Embed(title="Help Commands", description="**How Run Bot**", color=0x00ff00)
-           embed.add_field(name="Support Game", value="**:one: Loco\n:two: Confetti-India\nFlipkart\nJeetoh\nHQ Trivia\nCashquiz\nSwag IQ\nThe Q\nConfetti Vietnam\nConfetti mexico\nMocha vietnam\nTopIQ vietnam**", inline=False)
+           embed.add_field(name="Support Game", value="```INDIAN```\n**Loco\nConfetti-India\nFlipkart\nJeetoh\nQureka Leaks**\n\n```INTERNATIONAL```\n**HQ Trivia\nCashquiz\nSwag IQ\nThe Q\nConfetti Vietnam\nConfetti mexico\nMocha vietnam\nTopIQ vietnam\n Q-12**", inline=False)
            embed.add_field(name="when Question come put command", value=" `*` **is command work for all support game except**\n**`*j` is command of jeetoh**\n**`*f` is command for filpkart**\n\n**use cmd! in particular channels**\n\n**FOR MORE INFO CONTACT TO CAPTAIN COOL#0044**", inline=False)
            await message.channel.send(embed=embed)
           
