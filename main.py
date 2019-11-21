@@ -178,13 +178,13 @@ class Bot(discord.Client):
         self.answer_scores = answer_scores
 
         # embed creation
-        self.embed=discord.Embed(title="**__TRIVIA SAVAGE | PRO__**", description="**Web Searching** :spy:")
+        self.embed=discord.Embed(title="**__TRIVIA PRO__**", description="**Web Searching** :spy:")
         self.embed.set_author(name ='',url=' ',icon_url='https://images-ext-2.discordapp.net/external/aMZ8_Dhu3Cib5U1l--xzP6QVgEV6bzjPDLMC-gNawWY/https/cdn.discordapp.com/attachments/577373201164795904/585046581506605076/ezgif-2-2f5a82b8174f.gif?width=225&height=225')
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/595713706411819033/604679180201754674/image0.png")
         self.embed.add_field(name="**ANSWER 1**", value="0", inline=False)
         self.embed.add_field(name="**ANSWER 2**", value="0", inline=False)
         self.embed.add_field(name="**ANSWER 3**", value="0", inline=False)
-        self.embed.set_footer(text=f"©CAPTAIN COOL#0044",\
+        self.embed.set_footer(text=f"®RakshitRana#0084",\
             icon_url="https://cdn.discordapp.com/attachments/595713706411819033/604679180201754674/image0.png")
         self.embed.add_field(name="**SUGGESTED ANSWER!:**", value="0", inline=True)
 
@@ -262,7 +262,7 @@ class Bot(discord.Client):
 
         await self.clear_results()
         await self.update_embeds()
-        await self.change_presence(activity=discord.Game(name='Trivia by Captain Cool||*help'))
+        await self.change_presence(activity=discord.Game(name='Trivia by RakshitRana||$help'))
  
     async def on_message(self, message):
 
@@ -270,7 +270,7 @@ class Bot(discord.Client):
         if message.author == self.user or message.guild == None:
             return
 
-        if message.content.lower() == "*":
+        if message.content.lower() == "$":
             await message.delete()
             if BOT_OWNER_ROLE in [role.name for role in message.author.roles]:
                 self.embed_msg = None
@@ -284,12 +284,12 @@ class Bot(discord.Client):
                 await message.channel.send("**Lol** You Not Have permission To Use This **cmd!** :stuck_out_tongue_winking_eye:")
             return
 
-        if message.content.startswith('*help'):
+        if message.content.startswith('$help'):
           await message.delete()
           if BOT_OWNER_ROLE in [role.name for role in message.author.roles]:
-           embed = discord.Embed(title="Help Commands", description="**How Run Bot**", color=0x00ff00)
+           embed = discord.Embed(title="Help Commands||$help", description="**How Run Bot**", color=0x00ff00)
            embed.add_field(name="Support Game", value="**__INDIAN__**\n\n**Loco\nConfetti-India\nFlipkart\nJeetoh\nQureka Leaks\nAmazon**\n\n**__INTERNATIONAL__**\n\n**HQ Trivia\nCashquiz\nSwag IQ\nThe Q\nConfetti Vietnam\nConfetti mexico\nMocha vietnam\nTopIQ vietnam\n Q-12**", inline=False)
-           embed.add_field(name="when Question come put command", value=" `*` **is command work for all support game except**\n**`*j` is command of jeetoh**\n**`*f` is command for filpkart**\n\n**use cmd! in particular channels**\n\n**FOR MORE INFO CONTACT TO CAPTAIN COOL#0044**", inline=False)
+           embed.add_field(name="when Question come put command", value=" `$` **is command work for all support game except**\n**`*j` is command of jeetoh**\n**`*f` is command for filpkart**\n\n**use cmd! in particular channels**\n\n**FOR MORE INFO CONTACT TO CAPTAIN COOL#0044**", inline=False)
            await message.channel.send(embed=embed)
           
 
@@ -317,7 +317,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('__'))
+    loop.create_task(bot.start('NjQxOTczODQ3MDM3MzEzMDI0.XdYqSw.o8QgRjVas_vexfuFbdusOemWBTI'))
     loop.run_forever()
 
 
@@ -326,7 +326,7 @@ def selfbot_process(update_event, answer_scores):
     selfbot = SelfBot(update_event, answer_scores)
 
     loop = asyncio.get_event_loop()
-    loop.create_task(selfbot.start('__',
+    loop.create_task(selfbot.start('NTQ5Nzc0MDA1MzE0NTE5MDQ0.Xc_nAA.b6WctYsnQSXAIE9bWkwyXtuoEwA',
                                    bot=False))
     loop.run_forever()
 
