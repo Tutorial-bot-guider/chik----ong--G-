@@ -9,7 +9,7 @@ import multiprocessing
 import threading
 import concurrent
 
-BOT_OWNER_ROLE = 'fetch' # change to what you need
+BOT_OWNER_ROLE = 'Runner' # change to what you need
 #BOT_OWNER_ROLE_ID = "597332392637890571"
   
  
@@ -21,54 +21,54 @@ oot_channel_id_list = [
     "569420128794443776", #loco unt
     "569502072945377290", #indian loco
 	"595635734904307742", #tf loco
-	"612177236107460618",#sani loco
-	"591498350562377741",#planet loco
+	"612177236107460618", #sani loco
+	"591498350562377741", #planet loco
 	"605443517069656084", #tf confetti
 	"613744392968208403", #galaxy confett
-	"590583414541910018",# confetti IQ
+	"590583414541910018", # confetti IQ
 	"591294134564683809", #indian confetti
-	"588070986554015764",#unt confetti
-	"609405529575653387",# kingdom confetti
-	"612177284471717894",#sani confetti
-	"591498756562878475",#planet confetti
-	"595639586726740049",#tf hq
-	"613746823231963156",#hq galaxy
-	"580198028950896640",#HQ tribe
-        "459842150323060736",#hq dimensions
-        "513818250652680213",#hq world
-        "569420198717816852",#hq unt
-	"568617830258442255"#hq revolution
-	"598669844983840779",#cashquiz dimension
-	"446448458090545172",#cashquiz tribe
-	"613746922494099467",#cashquiz galaxy
-	"595639664300392472",#cashquiz tf
-	"596527077402869770",#theq tf
-	"501220538518077440",#theq dimensions
-	"446448458090545172",#theq tribe
-	"513818839008673833",#theq world
-	"569420278006808586",#theq unt
-	"580208596139245601",#theq revolution
-	"535675285211971584",#swagIQ world
-	"613747175779991563",#swagIQ galaxy
-	"595639769904447502",#swagIQ tf
-	"446448437119025154",#swagIQ tribe
-	"501220306128601098",#swagIQ dimension
-	"570794448808837131",#swagIQ revolution
-	"611919358863605760",#mocha pride
-	"599991033547325459",#topiq pride
-	"611440497319477260",#q12 pride
-	"611980187743158274",#q12 pride
-	"613749366888333322",#q12 galaxy
-	"613111574051291181",#q12 world
-	"514915010955313153",#confeti vietnam world
-	"595640787933331466",#confetti vietnam tf
-	"501219307477532674",#confeti vietnam dimension
-	"571241319658291200",#confeti vietnam unt
-	"609003338675126272",#confetti vietnam pride
-	"611439844996153375",#confetti mexico pride
-	"611980037243273220",#confettimexico pride
-	"612521279270027276",#confetti mexico other
-	"611751492054941696",#confetti mexico
+	"588070986554015764", #unt confetti
+	"609405529575653387", # kingdom confetti
+	"612177284471717894", #sani confetti
+	"591498756562878475", #planet confetti
+	"595639586726740049", #tf hq
+	"613746823231963156", #hq galaxy
+	"580198028950896640", #HQ tribe
+        "459842150323060736", #hq dimensions
+        "513818250652680213", #hq world
+        "569420198717816852", #hq unt
+	"568617830258442255", #hq revolution
+	"598669844983840779", #cashquiz dimension
+	"446448458090545172", #cashquiz tribe
+	"613746922494099467", #cashquiz galaxy
+	"595639664300392472", #cashquiz tf
+	"596527077402869770", #theq tf
+	"501220538518077440", #theq dimensions
+	"446448458090545172", #theq tribe
+	"513818839008673833", #theq world
+	"569420278006808586", #theq unt
+	"580208596139245601", #theq revolution
+	"535675285211971584", #swagIQ world
+	"613747175779991563", #swagIQ galaxy
+	"595639769904447502", #swagIQ tf
+	"446448437119025154", #swagIQ tribe
+	"501220306128601098", #swagIQ dimension
+	"570794448808837131", #swagIQ revolution
+	"611919358863605760", #mocha pride
+	"599991033547325459", #topiq pride
+	"611440497319477260", #q12 pride
+	"611980187743158274", #q12 pride
+	"613749366888333322", #q12 galaxy
+	"613111574051291181", #q12 world
+	"514915010955313153", #confeti vietnam world
+	"595640787933331466", #confetti vietnam tf
+	"501219307477532674", #confeti vietnam dimension
+	"571241319658291200", #confeti vietnam unt
+	"609003338675126272", #confetti vietnam pride
+	"611439844996153375", #confetti mexico pride
+	"611980037243273220", #confettimexico pride
+	"612521279270027276", #confetti mexico other
+	"611751492054941696"  #confetti mexico
 ]
 
 
@@ -353,4 +353,4 @@ if __name__ == '__main__':
 
 
  
- 
+
