@@ -1,4 +1,3 @@
-  
 '''
 using discord.py version 1.0.0a
 '''
@@ -317,7 +316,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NjQxOTczODQ3MDM3MzEzMDI0.XdYqSw.o8QgRjVas_vexfuFbdusOemWBTI'))
+    loop.create_task(bot.start('NjQ4MDMwODYxNzAyMzMyNDI2.Xd-jqg.uxSIcCoNX-Eh_3vpqVqlEUYFzY0'))
     loop.run_forever()
 
 
@@ -354,3 +353,4 @@ if __name__ == '__main__':
 
  
 
+hh
